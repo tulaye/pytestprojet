@@ -1,0 +1,16 @@
+
+stages:
+  - licence
+  - master
+
+comme:
+  stage: licence
+  script:
+    - echo"Je viens d'obenir mon diplome de licence"
+  
+
+
+jeveux:
+  stage: master
+  script:
+    -echo "je veux faire un master"
